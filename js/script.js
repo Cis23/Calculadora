@@ -108,3 +108,4 @@ function limpar(){
     console.log(n1,operacao,n2)
     mostrarNoDisplay(n1);
 }
+console.log("teste");
