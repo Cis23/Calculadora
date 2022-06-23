@@ -2,6 +2,7 @@ var n1 = '0';
 var operacao = null;
 var n2 = '';
 
+
 function incluirDigito(digito){
     if(n2 && operacao && clicadoEmIgual){
         limpar();
@@ -21,6 +22,7 @@ function incluirDigito(digito){
         mostrarNoDisplay(n1);
     }
 }
+
 function calcular(_n1,_n2){
     var nCalculado = 0;
     var _n1 = parseFloat(_n1);
@@ -106,3 +108,4 @@ function limpar(){
     console.log(n1,operacao,n2)
     mostrarNoDisplay(n1);
 }
+console.log("teste");
